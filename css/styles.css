@@ -635,7 +635,7 @@ main {
     outline: none;
 }
 
-/* Sign up form */
+/*-------------FOOTER Sign up form ----------*/
 .form-sign-up {
     display: flex;
     margin-left: auto;
@@ -666,7 +666,9 @@ main {
 
     background-color: var(--accent-color);
     background-origin: border-box;
+
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
     border-radius: 4px;
     border: 1px solid transparent;
 
@@ -700,7 +702,12 @@ main {
 
     padding: 15px 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: var(--background-color-black);
     border-radius: 4px;
+}
+
+.sign-up-input:focus {
+    background-color: #FFFFFF;
 }
 
 /* Portfolio-Page */
