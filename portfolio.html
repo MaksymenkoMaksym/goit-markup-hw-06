@@ -243,7 +243,6 @@
   <!--FOOTER-->
   <footer class="bottom">
     <div class="container flex-container">
-
       <div class="bottom-address">
         <a href="./index.html" class="logo">Web<span class="logo-white">Studio</span></a>
         <address id="contacts-address">
@@ -263,41 +262,51 @@
       <div class="promo">
         <h2 class="promo-title">присоединяйтесь</h2>
         <ul class="list">
-
           <li class="promo-item">
             <a class="promo-link" aria-label="instagram" href="#" target="“_blank”" rel="noopener noreferrer">
               <svg width="20" height="20">
-                <use href="./images/symbol-icons.svg#icon-instagram1">
-                </use>
+                <use href="./images/symbol-icons.svg#icon-instagram1"></use>
               </svg>
             </a>
           </li>
           <li class="promo-item">
             <a class="promo-link" aria-label="twitter" href="#" target="“_blank”" rel="noopener noreferrer">
               <svg width="20" height="20">
-                <use href="./images/symbol-icons.svg#icon-twitter1">
-                </use>
+                <use href="./images/symbol-icons.svg#icon-twitter1"></use>
               </svg>
             </a>
           </li>
           <li class="promo-item">
             <a class="promo-link" aria-label="facebook" href="#" target="“_blank”" rel="noopener noreferrer">
               <svg width="20" height="20">
-                <use href="./images/symbol-icons.svg#icon-facebook1">
-                </use>
+                <use href="./images/symbol-icons.svg#icon-facebook1"></use>
               </svg>
             </a>
           </li>
           <li class="promo-item">
             <a class="promo-link" aria-label="linkedin" href="#" target="“_blank”" rel="noopener noreferrer">
               <svg width="20" height="20">
-                <use href="./images/symbol-icons.svg#icon-linkedin1">
-                </use>
+                <use href="./images/symbol-icons.svg#icon-linkedin1"></use>
               </svg>
             </a>
           </li>
         </ul>
       </div>
+
+      <form class="form-sign-up" name="form-sign-up" autocomplete="on" novalidate>
+
+        <label class="sign-up-block" for="sign-up-email">
+          <span class="sign-up-txt">Подпишитесь на рассылку</span>
+          <input class="sign-up-input" type="email" name="email" id="sign-up-email" placeholder="E-mail" />
+        </label>
+
+        <button class="sign-up-button" type="submit">
+          <span class="sign-up-button-txt">Подписаться</span>
+          <svg width="24" height="24">
+            <use href="./images/symbol-icons.svg#icon-send"></use>
+          </svg>
+        </button>
+      </form>
     </div>
   </footer>
   <!--/ FOOTER-->

@@ -704,10 +704,11 @@ main {
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-color: var(--background-color-black);
     border-radius: 4px;
+    color: #2196F3;
 }
 
 .sign-up-input:focus {
-    background-color: #FFFFFF;
+    color: var(--accent-color);
 }
 
 /* Portfolio-Page */
@@ -1103,6 +1104,7 @@ main {
     border-radius: 2px;
 
     margin-right: 7px;
+    animation: zoom 250ms var(--timing-function) 50ms 1 alternate;
 }
 
 .input-checkbox:checked+.icon {
